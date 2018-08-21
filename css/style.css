@@ -1,0 +1,52 @@
+#calc 
+{
+	width: 345px;
+	padding: 5px;
+	background: #e9ebee;
+}
+
+#calc .display-input
+{
+	
+}
+
+#calc .calc-head-menu .mode
+{
+	text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#calc .calc-input
+{
+	border:none;
+	background: transparent;
+}
+
+#calc .display-input-result
+{
+	height: 50px;
+}
+
+#calc .display-input-result .result
+{
+	font-size: 35px;
+	font-weight: 700;
+	display: inline-block;
+	float: right;
+}
+
+#calc .calc-body {
+}
+
+#calc .calc-body .table .calc-td-nopad 
+{
+	padding: 2px;
+	overflow: hidden;
+}
+
+#calc .calc-body .table .calc-btn 
+{
+	width: 80px;
+	overflow: hidden;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calulator</title>
+	<meta charset="utf-8">
+	<meta charset="description" content="Calulator">
+	<meta name="keywords" content="calculator">
+	<meta name="author" content="phatvu">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div id="calc">
+			<div class="calc-head">
+				<div class="calc-head-menu">
+					<span class="mode">standard</span>
+				</div>
+				<div class="cal-head-display">
+					<div class="display-input">
+						<input type="text" name="display-input" class="form-control calc-input" >
+					</div>
+					<div class="display-input-result">
+						<span class="result">0</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- calculator body -->
+			<div class="calc-body">
+				<table class="table">
+					<tbody>
+						<tr>
+							<td class="calc-td-nopad">
+								<button value="CE" class="btn btn-light calc-btn">CE</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="C" class="btn btn-light calc-btn">C</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="backspace" class="btn btn-light calc-btn">BACKSPACE</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="/" class="btn btn-light calc-btn">DIVIDE</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="calc-td-nopad">
+								<button value="7" class="btn btn-light calc-btn">7</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="8" class="btn btn-light calc-btn">8</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="9" class="btn btn-light calc-btn">9</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="*" class="btn btn-light calc-btn">X</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="calc-td-nopad">
+								<button value="4" class="btn btn-light calc-btn">4</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="5" class="btn btn-light calc-btn">5</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="6" class="btn btn-light calc-btn">6</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="-" class="btn btn-light calc-btn">-</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="calc-td-nopad">
+								<button value="1" class="btn btn-light calc-btn">1</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="2" class="btn btn-light calc-btn">2</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="3" class="btn btn-light calc-btn">3</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="+" class="btn btn-light calc-btn">+</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="calc-td-nopad">
+								<button value="empty" class="btn btn-light calc-btn">+/-</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="0" class="btn btn-light calc-btn">0</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="dot" class="btn btn-light calc-btn">.</button>
+							</td>
+							<td class="calc-td-nopad">
+								<button value="=" class="btn btn-light calc-btn">=</button>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
